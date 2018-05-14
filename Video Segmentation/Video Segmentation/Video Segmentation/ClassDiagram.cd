@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BackgroundExtractor" Collapsed="true">
+    <Position X="8.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACgAAAAAAAAQAAACAAAEAAAABAEoAA=</HashCode>
+      <FileName>BackgroundExtractor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Evaluator" Collapsed="true">
+    <Position X="10" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAACAABAA=</HashCode>
+      <FileName>Evaluator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shape">
+    <Position X="4.25" Y="0.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>0gAEAAAAAAAAIAQIQANAAgABAEAARAAAAABwAGCAAAA=</HashCode>
+      <FileName>Shape.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShapeHook">
+    <Position X="5.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAQAQAAAAAAAAAAAwAGAAAAA=</HashCode>
+      <FileName>ShapeHook.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShapeSquare">
+    <Position X="3.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAACAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ShapeSquare.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrackedObject">
+    <Position X="11.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CgwgIAAAEGAABBAAAHAAKAAAIAUAJABoAACAAABEiwA=</HashCode>
+      <FileName>TrackedObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrackedObjects">
+    <Position X="8.25" Y="1.75" Width="1.5" />
+    <Members>
+      <Method Name="find" Hidden="true" />
+      <Field Name="rng" Hidden="true" />
+      <Field Name="smallestObjectArea" Hidden="true" />
+      <Field Name="trackedObjects" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AgAEAAIIAAAAAAAAAEAAAAAAAAQABACACgAAAAAEAgA=</HashCode>
+      <FileName>TrackedObjects.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Utilities" Collapsed="true">
+    <Position X="10" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAIAAAACAAAAAQAAAAAABAAQAAAAA=</HashCode>
+      <FileName>Utilities.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VideoSegmenter" Collapsed="true">
+    <Position X="14" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ghAAAAACEAAAAAAAAAAAACIAAAAAICAAAAAAAAAEIAA=</HashCode>
+      <FileName>VideoSegmenter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VideoSource" Collapsed="true">
+    <Position X="8.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAABAAAAQAQQAAAAIAIAABEAAAgAAAAIQABAA=</HashCode>
+      <FileName>VideoSource.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

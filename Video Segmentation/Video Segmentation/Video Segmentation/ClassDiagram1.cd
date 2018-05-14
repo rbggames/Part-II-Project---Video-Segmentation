@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="BackgroundExtractor">
+    <Position X="9" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACgAAAAAAAAQAAACAAAEAAAABAEoAA=</HashCode>
+      <FileName>BackgroundExtractor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VideoSegmenter">
+    <Position X="9" Y="2.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>ghAAAAACEAAAAAAAAAAAACIAAAAAICAAAAAAAAAEIAA=</HashCode>
+      <FileName>VideoSegmenter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrackedObject">
+    <Position X="16.25" Y="2.5" Width="2.5" />
+    <Members>
+      <Method Name="getOnlyObjectMat" Hidden="true" />
+      <Field Name="numFramesForLastMaskRefinement" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>CgwgIAAAEGAABBAAAHAAKAAAIAUAJABoAACAAABEiwA=</HashCode>
+      <FileName>TrackedObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrackedObjects">
+    <Position X="12.25" Y="2.5" Width="3" />
+    <Members>
+      <Field Name="trackedObjects" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AgAEAAIIAAAAAAAAAEAAAAAAAAQABACACgAAAAAEAgA=</HashCode>
+      <FileName>TrackedObjects.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Utilities">
+    <Position X="12.5" Y="7" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAIAAAACAAAAAQAAAAAABAAQAAAAA=</HashCode>
+      <FileName>Utilities.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shape">
+    <Position X="1.25" Y="2.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>0gAEAAAAAAAAIAQIQANAAgABAEAARAAAAABwAGCAAAA=</HashCode>
+      <FileName>Shape.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VideoSource">
+    <Position X="4.75" Y="2.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAABAAAAQAQQAAAAIAIAABEAAAgAAAAIQABAA=</HashCode>
+      <FileName>VideoSource.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="shapes" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Evaluator">
+    <Position X="4.75" Y="7" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAACAABAA=</HashCode>
+      <FileName>Evaluator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

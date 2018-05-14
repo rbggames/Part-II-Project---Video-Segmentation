@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\VideoCreator">
+      <UniqueIdentifier>{513896ad-de35-48d5-a017-b5ef8aae9fab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\VideoCreator">
+      <UniqueIdentifier>{a7d39633-726c-407b-8154-053b2f2933c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Evaluator">
+      <UniqueIdentifier>{3a496f1b-5497-4ed6-bad9-161231688571}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Evaluator">
+      <UniqueIdentifier>{b7d6f1b9-2ebd-4cb0-9fea-a5f558901d6e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>Header Files\VideoCreator</Filter>
+    </ClInclude>
+    <ClInclude Include="TrackedObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeHook.h">
+      <Filter>Header Files\VideoCreator</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoSource.h">
+      <Filter>Header Files\VideoCreator</Filter>
+    </ClInclude>
+    <ClInclude Include="BackgroundExtractor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeSquare.h">
+      <Filter>Header Files\VideoCreator</Filter>
+    </ClInclude>
+    <ClInclude Include="Evaluator.h">
+      <Filter>Header Files\Evaluator</Filter>
+    </ClInclude>
+    <ClInclude Include="TrackedObjects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoSegmenter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>Source Files\VideoCreator</Filter>
+    </ClCompile>
+    <ClCompile Include="TrackerTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TrackedObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeHook.cpp">
+      <Filter>Source Files\VideoCreator</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoSource.cpp">
+      <Filter>Source Files\VideoCreator</Filter>
+    </ClCompile>
+    <ClCompile Include="BackgroundExtractor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeSquare.cpp">
+      <Filter>Source Files\VideoCreator</Filter>
+    </ClCompile>
+    <ClCompile Include="Evaluator.cpp">
+      <Filter>Source Files\Evaluator</Filter>
+    </ClCompile>
+    <ClCompile Include="TrackedObjects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoSegmenter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Images\wall.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\wood.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\background.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\bright.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\..\..\Downloads\cuda_flow\video.avi">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\..\..\..\..\..\..\Matthew\Pictures\Camera Roll\test.mp4">
+      <Filter>Header Files\VideoCreator</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
